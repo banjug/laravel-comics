@@ -63,6 +63,88 @@ header nav .search-bar {
   text-align: right;
 }
 
+footer nav {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+}
+
+footer nav .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  overflow: hidden;
+}
+
+footer nav .container .link-cont {
+  display: flex;
+  padding: 50px 0;
+}
+
+footer nav .container .link-cont ul {
+  margin: 0 40px 20px 0;
+}
+
+footer nav .container .link-cont ul h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+footer nav .container .link-cont ul li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+footer nav .container .link-cont ul li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+footer nav .container .link-cont ul li a:hover {
+  color: lightgray;
+}
+
+footer nav .container .footer-logo {
+  height: 150%;
+  transform: translate(0, -20%);
+}
+
+footer .social {
+  background: #303030;
+  padding: 20px 0;
+}
+
+footer .social .social-cont {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .social .social-cont a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #0282f9;
+  font-weight: bold;
+}
+
+footer .social .social-cont .sign-btn {
+  color: #fff;
+  padding: 10px 15px;
+  border: 2px solid #0282f9;
+}
+
+footer .social .social-cont div {
+  display: flex;
+  align-items: center;
+}
+
+footer .social .social-cont div ul li {
+  display: inline;
+}
+
 main {
   background: chartreuse;
 }
