@@ -1,9 +1,6 @@
 @extends('layouts.main-layout')
 @section('content')
     <main>
-        <div class="hero">
-            <img src="{{url('img/jumbotron.jpg')}}" alt="">
-        </div>
         <span class="label">CURRENT SERIES</span>
         <div class="comics-cont">
             <div class="comic-card">

@@ -92,7 +92,7 @@
                     </li>
                 </ul>
             </div>
-            <img src="{{url('/img/dc-logo-bg.png')}}" alt="" class="footer-logo">
+            <img src="{{asset('storage/asset/dc-logo-bg.png')}}" alt="" class="footer-logo">
         </div>
     </nav>
     <div class="social">
@@ -103,27 +103,27 @@
                 <ul>
                     <li>
                         <a href="">
-                            <img src="{{url('/img/footer-facebook.png')}}" alt="">
+                            <img src="{{asset('storage/asset/footer-facebook.png')}}" alt="">
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <img src="{{url('/img/footer-twitter.png')}}" alt="">
+                            <img src="{{asset('storage/asset/footer-twitter.png')}}" alt="">
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <img src="{{url('/img/footer-youtube.png')}}" alt="">
+                            <img src="{{asset('storage/asset/footer-youtube.png')}}" alt="">
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <img src="{{url('/img/footer-pinterest.png')}}" alt="">
+                            <img src="{{asset('storage/asset/footer-pinterest.png')}}" alt="">
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <img src="{{url('/img/footer-periscope.png')}}" alt="">
+                            <img src="{{asset('storage/asset/footer-periscope.png')}}" alt="">
                         </a>
                     </li>
                 </ul>

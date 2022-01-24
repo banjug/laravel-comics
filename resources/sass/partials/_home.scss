@@ -11,14 +11,6 @@ main {
         position: absolute;
         transform: translate(80%, -50%);
     }
-    .hero {
-        height: 400px;
-        overflow: hidden;
-        img {
-            object-fit: cover;
-            max-width: 100%;
-        }
-    }
     .comics-cont {
         width: 80%;
         margin: 0 auto;

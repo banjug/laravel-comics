@@ -1,0 +1,8 @@
+.hero {
+    height: 400px;
+    overflow: hidden;
+    img {
+        object-fit: cover;
+        max-width: 100%;
+    }
+}

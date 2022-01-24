@@ -14,8 +14,8 @@
         </ul>
     </div>
     <nav>        
-        <a href="">
-            <img src="{{url('/img/dc-logo.png')}}" alt="" class="logo">
+        <a href="{{'/'}}">
+            <img src="{{ asset('storage/asset/dc-logo.png') }}" alt="" class="logo">
         </a>
         <div class="nav-links">
             <ul>

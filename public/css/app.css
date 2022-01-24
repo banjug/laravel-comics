@@ -63,8 +63,19 @@ header nav .search-bar {
   text-align: right;
 }
 
+.hero {
+  height: 400px;
+  overflow: hidden;
+}
+
+.hero img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+}
+
 footer nav {
-  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-image: url("/storage/asset/footer-bg.jpg");
 }
 
 footer nav .container {
@@ -161,17 +172,6 @@ main .label {
   transform: translate(80%, -50%);
 }
 
-main .hero {
-  height: 400px;
-  overflow: hidden;
-}
-
-main .hero img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  max-width: 100%;
-}
-
 main .comics-cont {
   width: 80%;
   margin: 0 auto;
@@ -222,5 +222,90 @@ main .btn a {
 
 main .btn a:hover {
   text-decoration: underline;
+}
+
+.comic-details .cover-cont {
+  background: #0282f9;
+  height: 60px;
+  position: relative;
+}
+
+.comic-details .cover-cont .cover {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.comic-details .cover-cont .cover img {
+  height: 200px;
+  position: absolute;
+  transform: translate(0, -80%);
+  border: 2px solid #fff;
+}
+
+.comic-details .cover-cont .cover span {
+  background: #00a9d9;
+  color: #fff;
+  z-index: 1;
+  position: absolute;
+}
+
+.comic-details .details-cont {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.comic-details .details-cont .left-col {
+  width: 60%;
+}
+
+.comic-details .details-cont .left-col h2 {
+  margin: 100px 0 50px;
+  font-size: 2rem;
+}
+
+.comic-details .details-cont .left-col .price-cont {
+  background: #55ba59;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  font-weight: bold;
+  color: #fff;
+}
+
+.comic-details .details-cont .left-col .price-cont > * {
+  padding: 15px 30px;
+}
+
+.comic-details .details-cont .left-col .price-cont .price {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  border-right: 1px solid #000;
+}
+
+.comic-details .details-cont .left-col .price-cont .price .accent-text {
+  color: #baf980;
+}
+
+.comic-details .details-cont .left-col .price-cont .checker {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.comic-details .details-cont .left-col p {
+  margin: 20px 0 50px;
+  line-height: 1.5rem;
+}
+
+.comic-details .details-cont .right-col {
+  text-align: right;
+  margin-top: 100px;
+  padding-left: 50px;
+}
+
+.comic-details .details-cont .right-col h4 {
+  margin-bottom: 20px;
 }
 
