@@ -309,3 +309,43 @@ main .btn a:hover {
   margin-bottom: 20px;
 }
 
+.comic-details .specs-cont {
+  background: #f6f6f6;
+  padding: 50px 0;
+  border-top: 1px solid #e3e3e3;
+}
+
+.comic-details .specs-cont > div {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.comic-details .specs-cont > div .spec-col {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.comic-details .specs-cont > div .spec-col h4 {
+  padding-bottom: 10px;
+}
+
+.comic-details .specs-cont > div .spec-col > div {
+  border-top: 1px solid #e3e3e3;
+  display: flex;
+  padding: 10px 0;
+}
+
+.comic-details .specs-cont > div .spec-col > div:last-child {
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.comic-details .specs-cont > div .spec-col > div .spec-title {
+  width: 30%;
+}
+
+.comic-details .specs-cont > div .spec-col > div .spec-desc {
+  width: 70%;
+  color: #0282f9;
+}
+

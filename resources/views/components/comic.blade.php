@@ -28,4 +28,58 @@
             <img src="https://via.placeholder.com/300x250" alt="">
         </div>
     </div>
+    <div class="specs-cont">
+        <div>
+            <div class="spec-col">
+                <h4>
+                    Talent
+                </h4>
+                <div>
+                    <div class="spec-title">
+                        Art by:
+                    </div>
+                    <div class="spec-desc">
+                        José Luis García-López, Clay Mann, Rafael Albuquerque, Patrick Gleason, Dan Jurgens, Joe Shuster, Neal Adams, Curt Swan, John Cassaday, Olivier Coipel, Jim Lee
+                    </div>
+                </div>
+                <div>
+                    <div class="spec-title">
+                        Written by:
+                    </div>
+                    <div class="spec-desc">
+                        Brad Meltzer, Tom King, Scott Snyder, Geoff Johns, Brian Michael Bendis, Paul Dini, Louise Simonson, Richard Donner, Marv Wolfman, Peter J. Tomasi, Dan Jurgens, Jerry Siegel, Paul Levitz
+                    </div>
+                </div>
+            </div>
+            <div class="spec-col">
+                <h4>
+                    Specs
+                </h4>
+                <div>
+                    <div class="spec-title">
+                        Series:
+                    </div>
+                    <div class="spec-desc">
+                        ACTION COMICS
+                    </div>
+                </div>
+                <div>
+                    <div class="spec-title">
+                        U.S. Price:
+                    </div>
+                    <div class="spec-desc">
+                        $19.99
+                    </div>
+                </div>
+                <div>
+                    <div class="spec-title">
+                        On Sale Date:
+                    </div>
+                    <div class="spec-desc">
+                        Oct 02 2018
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
